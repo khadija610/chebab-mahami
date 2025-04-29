@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>تالف الشباب المحمي</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LogoM.png" type = "image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>تآلف الشباب المحمي</span>
+                </div>
+                <img src="logo.png" class="logo">
+                <div class = "site-nav">
+                    <span id = "nav-btn"><i class = "fas fa-bars"></i></span>
+                </div>
+                 
+                
+            </div>
+
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href ="#header">الصفحةالرئيسية</a></li>
+                <li><a href = "#memories">معلومات عن الحفل</a></li>
+                <li><a href = "#about">من نحن</a></li>
+                <li class="facebook-button">
+                    <a href="https://www.facebook.com/profile.php?id=61550199389455" target="_blank" rel="noopener noreferrer">تواصل معنا </a>
+                
+            </ul>
+            
+
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+        <!-- body content  -->
+        <section class="events-table"  >
+            <h2>جدول الفعاليات القادمة</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>اليوم والتاريخ</th>
+                        <th>اسم الفعالية</th>
+                        <th>الوقت</th>
+                        <th>الموقع</th>
+                        <th>ملاحظات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>الجمعة،05 سبتمبر 2025</td>
+                        <td>حفل تكريم الناجحين</td>
+                        <td>8:00 مساءً</td>
+                        <td>المسرح الرئيسي</td>
+                        <td>الدعوة عامة</td>
+                    </tr>
+                    </tbody>
+            </table>
+        </section>
+
+       
+
+        <section class="memories-sections" id = "memories">
+            <a href="capture.html">
+                <div class="memory-box" onclick="navigateTo('images2021_2022.html')">
+            
+                <div class="icon"><i class="fas fa-camera"></i></div> <h2>صور الحفل</h2>
+               
+                <p></p>
+            </div> </a>
+            
+        
+            <a href="pictvid.html"><div class="memory-box" onclick="navigateTo('images2021_2022.html')">
+                <div class="icon"><i class="fas fa-images"></i></div> <h2>الأنشطة و الفعاليات</h2>
+                <p></p>
+            </div>
+        </a>
+        </section>
+
+        <section class="about-us-section" id = "about">
+            <div class="container">
+                <h1>من نحن</h1>
+                <p class="mission-text">
+                    التآلف الشباب المحمي هو رابطة شبابية تختص بشأن الشباب المحمي (المحمي الاعمري الدكفودي).
+                    تدور فكرتها حول نشطات شبابية تتضمن تكريم المتفوقين من الأسرة, والقيام بالسقايات على أرواح المتوفين من الأسرة
+                    وتنظيم الأنشطة الرياضية والثقافية الموسمية
+                </p>
+    
+                <div class="vision-goals">
+                    <div class="vision-box">
+                        <h3>رؤيتنا</h3>
+                        <p>نسعى لبناء جيل شاب واعي ومترابط، يساهم في رفعة الأسرة والمجتمع من خلال الأنشطة الهادفة.</p>
+                        </div>
+                    <div class="goals-box">
+                        <h3>أهدافنا</h3>
+                        <ul>
+                            <li>تعزيز الروابط الاجتماعية بين شباب الأسرة.</li>
+                            <li>تحفيز التفوق العلمي والثقافي بين أفراد الأسرة.</li>
+                            <li>إحياء ذكرى المتوفين من الأسرة بالدعاء والصدقات.</li>
+                            <li>توفير بيئة إيجابية لممارسة الأنشطة الرياضية والثقافية.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+              
+            </div>
+        </section>
+       
+        <!-- end of body content -->
+        
+        <!-- footer -->
+        <footer>
+            <p>&copy; 2025 جميع الحقوق محفوظة</p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
